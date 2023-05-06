@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/heykynfc/profile
+    - export DEPLOYPATH=/home/heykynfc/repositories/profile
     - /bin/cp -R images $DEPLOYPATH
