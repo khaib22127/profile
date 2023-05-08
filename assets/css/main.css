@@ -493,7 +493,7 @@ label {
 	color: #ffffff;
 	display: block;
 	font-size: 0.8rem;
-	font-weight: 300;
+	font-weight: bold;
 	letter-spacing: 0.2rem;
 	line-height: 1.5;
 	margin: 0 0 1rem 0;
@@ -740,6 +740,7 @@ input[type="radio"]+label:before {
 
 .icon:before {
 	line-height: inherit;
+	font-size: 1.5rem;
 }
 
 .icon.solid:before {
@@ -819,6 +820,7 @@ input[type="radio"]+label:before {
 
 .image.main img {
 	width: 100%;
+	height: 12rem;
 }
 
 @media screen and (max-width: 736px) {
